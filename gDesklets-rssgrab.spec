@@ -3,7 +3,7 @@ Summary:	RSS/RDF contents viewer
 Summary(pl):	Przegl±darka tre¶ci RSS/RDF
 Name:		gDesklets-%{pname}
 Version:	0.6.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/%{pname}-%{version}.tar.gz
@@ -30,6 +30,7 @@ Ten desklet pozwala przegl±daæ informacje w formacie RSS/RDF.
 
 %prep
 %setup -q -n %{pname}-%{version}
+chmod u+w gfx/bg
 
 %install
 rm -rf $RPM_BUILD_ROOT
