@@ -1,4 +1,4 @@
-%define	pname	rssgrab
+%define		pname	rssgrab
 Summary:	RSS/RDF contents viewer
 Summary(pl):	Przegl±darka tre¶ci RSS/RDF
 Name:		gDesklets-%{pname}
@@ -18,8 +18,8 @@ Provides:	gDesklets-display
 Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_sensorsdir	%{_datadir}/gdesklets/Sensors
-%define _displaysdir	%{_datadir}/gdesklets/Displays
+%define		_sensorsdir	%{_datadir}/gdesklets/Sensors
+%define		_displaysdir	%{_datadir}/gdesklets/Displays
 
 %description
 This desklet allows you to view the contents of an RSS/RDF feed.
