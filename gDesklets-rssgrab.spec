@@ -2,12 +2,12 @@
 Summary:	RSS/RDF contents viewer
 Summary(pl):	Przegl±darka tre¶ci RSS/RDF
 Name:		gDesklets-%{pname}
-Version:	0.4
+Version:	0.6
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://gdesklets.gnomedesktop.org/files/%{pname}-%{version}.tar.bz2
-# Source0-md5:	e21e70a2a2b872690576b2ffc6a025ad
+Source0:	http://gdesklets.gnomedesktop.org/files/%{pname}-%{version}.tar.gz
+# Source0-md5:	a04749c0435871d6c71986b0ca97f6eb
 URL:		http://gdesklets.gnomedesktop.org/categories.php?func=gd_show_app&gd_app_id=101
 BuildRequires:	python >= 2.3
 BuildRequires:	python-pygtk >= 1.99.18
