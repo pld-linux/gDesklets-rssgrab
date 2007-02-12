@@ -1,6 +1,6 @@
 %define		pname	rssgrab
 Summary:	RSS/RDF contents viewer
-Summary(pl):	Przegl±darka tre¶ci RSS/RDF
+Summary(pl.UTF-8):   PrzeglÄ…darka treÅ›ci RSS/RDF
 Name:		gDesklets-%{pname}
 Version:	0.6.4
 Release:	4
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This desklet allows you to view the contents of an RSS/RDF feed.
 
-%description -l pl
-Ten desklet pozwala przegl±daæ informacje w formacie RSS/RDF.
+%description -l pl.UTF-8
+Ten desklet pozwala przeglÄ…daÄ‡ informacje w formacie RSS/RDF.
 
 %prep
 %setup -q -n %{pname}-%{version}
