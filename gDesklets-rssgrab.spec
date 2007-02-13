@@ -1,6 +1,6 @@
 %define		pname	rssgrab
 Summary:	RSS/RDF contents viewer
-Summary(pl.UTF-8):   Przeglądarka treści RSS/RDF
+Summary(pl.UTF-8):	Przeglądarka treści RSS/RDF
 Name:		gDesklets-%{pname}
 Version:	0.6.4
 Release:	4
